@@ -1,4 +1,4 @@
-package scooter.courier;
+package scooter;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
