@@ -6,9 +6,9 @@ import io.restassured.response.ValidatableResponse;
 import static io.restassured.RestAssured.given;
 
 import io.qameta.allure.Step;
-import scooter.courier.CourierCredentials;
+import scooter.ScooterRestClient;
 
-public class OrderClient extends CourierCredentials.ScooterRestClient {
+public class OrderClient extends ScooterRestClient {
     private static final String ORDER_PATH = "api/v1/orders/";
 
     @Step("Creating new order with {order}")
